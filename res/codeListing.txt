@@ -1,0 +1,15 @@
+Code Files:
+  main.cpp
+
+To compile and run code:
+
+  $ mpic++ main.cpp $
+  $ mpirun -np #PROCESSES a.out MESH_SIZE TIME_STEP DISTANCE_BETWEEN_NODES THERMAL_DIFFUSIVITY ITERATIONS
+
+Variable Types:
+
+  MESH_SIZE              - int
+  TIME_STEP              - float
+  DISTANCE_BETWEEN_NODES - float
+  THERMAL_DIFFUSIVITY    - float
+  ITERATIONS             - int
